@@ -933,19 +933,27 @@ function ChatSidebarComponent({
                 to="/chat"
                 className={cn(
                   buttonVariants({ variant: 'ghost', size: 'sm' }),
-                  'w-full pl-1.5 justify-start gap-2',
+                  'w-full pl-1.5 justify-start gap-2 h-auto py-1.5',
                 )}
               >
                 <img
-                  src="/claude-avatar.webp"
-                  alt="Hermes Agent"
-                  className="size-6 rounded-lg"
+                  src="/cerebratech-logo.svg"
+                  alt="Cerebratech"
+                  className="size-7 rounded-lg shrink-0"
                 />
-                <span
-                  className="text-sm font-semibold tracking-tight"
-                  style={{ color: 'var(--theme-text)' }}
-                >
-                  Hermes Workspace
+                <span className="flex min-w-0 flex-col leading-tight text-left">
+                  <span
+                    className="text-sm font-semibold tracking-tight truncate"
+                    style={{ color: 'var(--theme-text)' }}
+                  >
+                    Cerebratech
+                  </span>
+                  <span
+                    className="text-[10px] font-medium tracking-wide uppercase truncate"
+                    style={{ color: 'var(--theme-muted)' }}
+                  >
+                    Hermes Workspace
+                  </span>
                 </span>
               </Link>
             </motion.div>

@@ -332,7 +332,13 @@ export function WorkspaceShell({ children }: WorkspaceShellProps) {
                 className="text-[13px] font-medium select-none"
                 style={{ color: 'var(--theme-accent, #B98A44)' }}
               >
-                Hermes
+                Cerebratech
+              </span>
+              <span
+                className="ml-2 text-[11px] font-normal select-none opacity-70"
+                style={{ color: 'var(--theme-muted)' }}
+              >
+                Hermes Workspace
               </span>
             </div>
             {/* Right spacer to balance */}

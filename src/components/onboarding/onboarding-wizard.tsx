@@ -146,8 +146,8 @@ export function OnboardingWizard() {
                       >
                         {step.id === 'welcome' ? (
                           <img
-                            src="/claude-avatar.webp"
-                            alt="Hermes Agent"
+                            src="/cerebratech-logo.svg"
+                            alt="Cerebratech"
                             className="size-16 rounded-2xl"
                           />
                         ) : (

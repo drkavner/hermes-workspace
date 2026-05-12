@@ -521,14 +521,21 @@ export function ClaudeOnboarding() {
           {step === 'welcome' && (
             <div className="space-y-4 text-center">
               <img
-                src="/claude-avatar.webp"
-                alt="Hermes Agent"
+                src="/cerebratech-logo.svg"
+                alt="Cerebratech"
                 className="mx-auto size-20 rounded-2xl"
                 style={{
                   filter: 'drop-shadow(0 8px 24px rgba(99,102,241,0.3))',
                 }}
               />
-              <h2 className="text-xl font-bold">Welcome to Hermes Workspace</h2>
+              <h2 className="text-xl font-bold">
+                Welcome to Cerebratech
+                <span
+                  className="ml-2 align-middle text-xs font-medium uppercase tracking-wider opacity-60"
+                >
+                  Hermes Workspace
+                </span>
+              </h2>
               <p className="text-sm" style={mutedStyle}>
                 Works with any OpenAI-compatible backend. Hermes Agent gateway APIs
                 unlock sessions, memory, skills, and other extras automatically.
