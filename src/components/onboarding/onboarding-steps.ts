@@ -32,8 +32,8 @@ export type OnboardingStep = {
 export const ONBOARDING_STEPS: Array<OnboardingStep> = [
   {
     id: 'welcome',
-    title: 'Welcome to Cerebratech',
-    description: 'Your Cerebratech workspace, powered by Hermes Agent',
+    title: 'Welcome to CerebraTech',
+    description: 'Your CerebraTech workspace, powered by Hermes Agent',
     icon: Home01Icon,
     iconBg: 'bg-orange-500',
     nextLabel: 'Get Started',

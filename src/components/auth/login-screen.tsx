@@ -41,13 +41,13 @@ export function LoginScreen() {
           <div className="mb-8 flex justify-center">
             <div className="flex items-center gap-3">
               <img
-                src="/cerebratech-logo.svg"
-                alt="Cerebratech"
+                src="/cerebratech-icon.png"
+                alt="CerebraTech"
                 className="size-10 rounded-lg"
               />
               <div className="flex flex-col leading-tight">
                 <h1 className="text-2xl font-bold tracking-tight text-primary-900">
-                  Cerebratech
+                  CerebraTech
                 </h1>
                 <span className="text-[11px] font-medium uppercase tracking-wider text-primary-500">
                   Hermes Workspace

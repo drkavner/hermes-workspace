@@ -126,12 +126,12 @@ export const Route = createRootRoute({
           'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover, interactive-widget=resizes-visual',
       },
       {
-        title: 'Cerebratech · Hermes Workspace',
+        title: 'CerebraTech · Hermes Workspace',
       },
       {
         name: 'description',
         content:
-          'Cerebratech workspace, powered by Hermes — chat, tools, files, memory, and jobs.',
+          'CerebraTech workspace, powered by Hermes — chat, tools, files, memory, and jobs.',
       },
       {
         property: 'og:image',
@@ -478,8 +478,8 @@ function RootDocument({ children }: { children: React.ReactNode }) {
             var d = document.createElement('div');
             d.id = 'splash-screen';
             d.style.cssText = 'position:fixed;inset:0;z-index:99999;display:flex;flex-direction:column;align-items:center;justify-content:center;background:'+bg+';transition:opacity 0.5s ease;';
-            d.innerHTML = '<img src="/cerebratech-logo.svg" alt="Cerebratech" style="width:80px;height:80px;margin-bottom:20px;border-radius:16px;filter:drop-shadow(0 8px 32px color-mix(in srgb,'+accent+' 45%, transparent))" />'
-              + '<div style="font:600 28px/1 system-ui,-apple-system,sans-serif;letter-spacing:-0.02em;color:'+txt+';margin-bottom:6px">Cerebratech</div>'
+            d.innerHTML = '<img src="/cerebratech-icon.png" alt="CerebraTech" style="width:80px;height:80px;margin-bottom:20px;border-radius:16px;filter:drop-shadow(0 8px 32px color-mix(in srgb,'+accent+' 45%, transparent))" />'
+              + '<div style="font:600 28px/1 system-ui,-apple-system,sans-serif;letter-spacing:-0.02em;color:'+txt+';margin-bottom:6px">CerebraTech</div>'
               + '<div style="font:400 13px/1 system-ui,-apple-system,sans-serif;letter-spacing:0.08em;text-transform:uppercase;color:'+muted+'">Hermes Workspace</div>'
               + '<div style="margin-top:28px;width:140px;height:3px;background:'+(isDark ? 'rgba(255,255,255,0.08)' : 'rgba(0,0,0,0.08)')+';border-radius:3px;overflow:hidden;position:relative"><div id=splash-bar style="width:0%;height:100%;background:'+accent+';border-radius:3px;transition:width 0.4s ease"></div></div>';
             document.body.prepend(d);

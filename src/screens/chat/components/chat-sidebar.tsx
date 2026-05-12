@@ -937,8 +937,8 @@ function ChatSidebarComponent({
                 )}
               >
                 <img
-                  src="/cerebratech-logo.svg"
-                  alt="Cerebratech"
+                  src="/cerebratech-icon.png"
+                  alt="CerebraTech"
                   className="size-7 rounded-lg shrink-0"
                 />
                 <span className="flex min-w-0 flex-col leading-tight text-left">
@@ -946,7 +946,7 @@ function ChatSidebarComponent({
                     className="text-sm font-semibold tracking-tight truncate"
                     style={{ color: 'var(--theme-text)' }}
                   >
-                    Cerebratech
+                    CerebraTech
                   </span>
                   <span
                     className="text-[10px] font-medium tracking-wide uppercase truncate"

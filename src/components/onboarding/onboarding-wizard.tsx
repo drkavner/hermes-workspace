@@ -146,8 +146,8 @@ export function OnboardingWizard() {
                       >
                         {step.id === 'welcome' ? (
                           <img
-                            src="/cerebratech-logo.svg"
-                            alt="Cerebratech"
+                            src="/cerebratech-icon.png"
+                            alt="CerebraTech"
                             className="size-16 rounded-2xl"
                           />
                         ) : (

@@ -1,7 +1,7 @@
 {
-  "name": "Cerebratech · Hermes Workspace",
-  "short_name": "Cerebratech",
-  "description": "Cerebratech control surface, powered by Hermes Workspace.",
+  "name": "CerebraTech · Hermes Workspace",
+  "short_name": "CerebraTech",
+  "description": "CerebraTech control surface, powered by Hermes Workspace.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0A0E1A",

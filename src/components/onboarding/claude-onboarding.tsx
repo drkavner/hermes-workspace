@@ -521,15 +521,15 @@ export function ClaudeOnboarding() {
           {step === 'welcome' && (
             <div className="space-y-4 text-center">
               <img
-                src="/cerebratech-logo.svg"
-                alt="Cerebratech"
+                src="/cerebratech-icon.png"
+                alt="CerebraTech"
                 className="mx-auto size-20 rounded-2xl"
                 style={{
                   filter: 'drop-shadow(0 8px 24px rgba(99,102,241,0.3))',
                 }}
               />
               <h2 className="text-xl font-bold">
-                Welcome to Cerebratech
+                Welcome to CerebraTech
                 <span
                   className="ml-2 align-middle text-xs font-medium uppercase tracking-wider opacity-60"
                 >
